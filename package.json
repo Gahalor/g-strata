@@ -1,0 +1,35 @@
+{
+  "name": "g_strata_app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.7.0",
+    "aos": "^2.3.4",
+    "bootstrap-icons": "^1.10.5",
+    "i18next": "^22.4.9",
+    "react": "^18.2.0",
+    "react-bootstrap-icons": "^1.10.3",
+    "react-dom": "^18.2.0",
+    "react-globe.gl": "^2.22.8",
+    "react-i18next": "^12.1.4",
+    "react-icons": "^4.6.0",
+    "react-router-dom": "^6.4.2",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "web3": "^1.8.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.0.7"
+  }
+}

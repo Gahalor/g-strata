@@ -1,0 +1,68 @@
+{
+    "hero": {
+        "new-tech": "",
+        "groundwater": "Advanced Geophysics",
+        "solution": "We provide integral solutions in the study of the subsoil, through geophysics, geology and hydrology."
+    },
+    "solution": {
+        "title": "GroundWater Detection",
+        "content-1": "We have the best technology for the location of deep waters through the innovative S.E.R. technology.",
+        "content-2": "System that identify and quantify groundwater with low uncertainty, by combining geophysical and hydrogeological data with the implementation of AI and Big Data."
+    },
+    "company": {
+        "intro": "G-Strata Company",
+        "title": "Vision of the Company",
+		"content-1": "We aspire to be a leading company in the development and innovation in the field of applied geophysics and geological and hydrogeological studies, working with a qualified team and using the most advanced technology.",
+        "content-2": "We want to be a strategic ally for our clients, delivering a quality service, complying with the deadlines and conditions established in an effective and efficient manner, providing an added value to our services."
+	},
+    "explorer": {
+        "title": "Global Groundwater Map",
+		"content-1": "We developed a global map of groundwater locations.",
+        "content-2": "represented as NFTs ensuring ownership and veracity of data in Blockchain."
+	},
+    "contact": {
+        "title": "Get In Touch",
+		"content-1": "Contact us and find out how our technology and services can help you with your groundwater needs."
+	},
+    "instruments": {
+        "title": "G-Strata Instruments",
+		"content-1": "Development and innovation of state-of-the-art geophysical instrumentation.",
+        "content-2": "S.E.M.q. System: First geophysical system for groundwater search with implementation of quantum sensors."
+	},
+    "services": {
+        "title": "Services",
+        "service-1": "Geophysical Prospecting",
+        "service-1-1": "+ Geoelectric",
+        "service-1-1-1": "- Electrical resistivity tomography (E.R.T.)",
+        "service-1-1-2": "- Audiomagnetotelluric (with and without a controlled source) (A.M.T. or C.S.A.M.T.)",
+        "service-1-1-3": "- Transient Electromagnetic (T.E.M.)",
+        "service-1-1-4": "- Vertical electrical sounding (V.E.S.)",
+
+        "service-1-2": "+ Seismic survey",
+        "service-1-2-1": "- Seismic refraction (Vp calculation)",
+        "service-1-2-2": "- Surface wave analysis (M.A.S.W.)",
+        "service-1-2-3": "- Nakamura Spectral Analysis or HVSR",
+
+        "service-1-3": "+ Gravimetry",
+        "service-1-4": "+ Magnetometry",
+
+
+        "service-2": "Groundwater Search and Characterisation",
+        "service-2-1": "+ Seismoelectric method",
+        "service-2-2": "+ Electrical Resistivity Method",
+        "service-2-3": "+ S.E.R. Method",
+
+        "service-3": "Geology and Hydrogeology"
+	},
+    "card": {
+        "1": "Hydrological Projects",
+        "1-text": "More than 400 water search projects executed in 4 South American countries.",
+        "2": "Well Prospecting",
+        "2-text": "More than 800 water wells discovered and in operation thanks to our technology.",
+        "3": "Mining Projects",
+        "3-text": "More than 15 mining projects successfully explored and currently in operation.",
+        "4": "Geophysical Studies",
+        "4-text": "More than 150 subsoil geophysical studies applied to civil works at national level."
+
+	}
+}

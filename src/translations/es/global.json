@@ -1,0 +1,133 @@
+{
+    "hero": {
+        "new-tech": "Nueva tecnología",
+        "groundwater": "Geofísica de Avanzada",
+        "solution": "Entregamos soluciones integrales en el estudio del subsuelo, a través de la geofísica, la geología y la hidrología."
+    },
+    "solution": {
+        "intro": "G-Strata Solution",
+        "title": "Detección de Aguas Subterráneas",
+		"content-1": "Disponemos de la mejor tecnología para la localización de aguas profundas mediante la innovadora tecnología S.E.R.",
+        "content-2": "Sistema que identifica y cuantifica aguas subterráneas con baja incertidumbre, mediante la combinación de datos geofísicos e hidrogeológicos con la implementación de IA y Big Data."
+	},
+    "company": {
+        "intro": "G-Strata Company",
+        "title": "Visión de la Empresa",
+		"content-1": "Aspiramos ser una empresa líder en el desarrollo e innovación en el campo de la geofísica aplicada y los estudios geológicos e hidrogeológicos, trabajando con un equipo cualificado y utilizando la tecnología más avanzada.",
+        "content-2": "Queremos ser un aliado estratégico para nuestros clientes, prestando un servicio de calidad, cumpliendo los plazos y condiciones establecidos de forma eficaz y eficiente, aportando un valor añadido a nuestros servicios."
+	},
+    "explorer": {
+        "title": "Mapa Global de Aguas Subterráneas",
+		"content-1": "Desarrollamos un mapa global de localizaciones de aguas subterráneas.",
+        "content-2": "Representadas como NFTs garantizando la propiedad y veracidad de los datos en Blockchain."
+	},
+    "contact": {
+        "title": "Ponte en Contacto",
+		"content-1": "Póngase en contacto con nosotros y descubra cómo nuestra tecnología y servicios pueden ayudarle con sus necesidades de aguas subterráneas."
+	},
+    "instruments": {
+        "title": "G-Strata Instruments",
+		"content-1": "Desarrollo e innovación de instrumental geofísico de última generación.",
+        "content-2": "Sistema S.E.M.q: Primer sistema geofísico para búsqueda de agua subterránea con implementación de sensores cuánticos."
+	},
+    "services": {
+        "title": "Servicios",
+        "service-1": "Prospección Geofísica",
+        "service-1-1": "+ Geoeléctrica",
+        "service-1-1-1": "- Tomografía de resistividad eléctrica (T.R.E.)",
+        "service-1-1-2": "- Audiomagnetotelúrica (con y sin fuente controlada) (A.M.T. o C.S.A.M.T.)",
+        "service-1-1-3": "- Transiente electromagnético (T.E.M.)",
+        "service-1-1-4": "- Sondaje eléctrico vertical (S.E.V.)",
+
+        "service-1-2": "+ Prospección Sísmica",
+        "service-1-2-1": "- Refracción sísmica (cálculo Vp)",
+        "service-1-2-2": "- Análisis de onda superficial (M.A.S.W)",
+        "service-1-2-3": "- Análisis espectral Nakamura o HVSR",
+
+        "service-1-3": "+ Gravimetría",
+        "service-1-4": "+ Magnetometría",
+
+        "service-2": "Búsqueda y Caracterización de Agua Subterránea",
+        "service-2-1": "+ Método Sismoeléctrico",
+        "service-2-2": "+ Método de Resistividad Eléctrica",
+        "service-2-3": "+ Método S.E.R.",
+
+        "service-3": "Geología e Hidrogeología"
+	},
+    "card": {
+        "1": "Proyectos Hidrológicos",
+        "1-text": "Mas de 400 proyectos de búsqueda de agua ejecutados en 4 países de Latinoamérica.",
+        "2": "Prospección de Pozos",
+        "2-text": "Mas de 800 pozos de agua descubiertos y en explotación gracias a nuestra tecnología.",
+        "3": "Proyectos Mineros",
+        "3-text": "Mas de 15 proyectos mineros explorados y actualmente en explotación.",
+        "4": "Estudios Geofísicos",
+        "4-text": "Mas de 150 estudios geofísicos de subsuelo aplicados a obras civiles a nivel nacional."
+	},
+
+    "roadmap": {
+        "intro": "G-Strata Solution",
+        "title": "Roadmap",
+		"year-1": "Prototipado",
+        "year-1-content": "Prueba e integración de métodos geofísicos tradicionales y modernos",
+		"year-2": "Ejecución",
+        "year-2-content": "Más de 15.000 pruebas SER realizadas en Chile y Sudamérica",
+		"year-3": "Validación",
+        "year-3-content": "Validación de información gubernamental, sanitaria y privada. Proceso de patentes",
+		"year-4": "Nueva Tecnología",
+        "year-4-content": "Desarrollo de un nuevo sistema hardware S.E.R. con integración de IA, Big Data y Blockchain."
+	},
+
+    "prospection": {
+        "1": "Prospección Geofísica",
+            "1-1": "Geoeléctrica",
+                "1-1-1": "Tomografía de Resistividad Eléctrica (T.R.E.)",
+                    "1-1-1-text-1": "Permite registrar la resistividad eléctrica del subsuelo mediante el mapeo continuo de señales eléctricas. Es un método por excelencia en la búsqueda de aguas subterráneas como para la determinación de mineralizaciones. Tiene aplicaciones para la identificación de estructuras, litología, fallas, cuencas y karst entre otros.",
+                    "1-1-1-text-2": "Nuestros equipos permiten obtener información hasta los 200m de profundidad.",
+
+                "1-1-2": "Audiomagnetotelúrica (con y sin fuente controlada) (A.M.T. o C.S.A.M.T.)",
+                    "1-1-2-text-1": "Es un método geofísico utilizado para investigar la estructura subsuperficial de la Tierra mediante la medición de la respuesta electromagnética natural o inducida. La AMT sin fuente controlada utiliza señales ambientales de frecuencias bajas, mientras que la AMT con fuente controlada utiliza una fuente artificial para generar señales electromagnéticas y obtener una mayor resolución.",
+                    "1-1-2-text-2": "Ambos métodos son utilizados en la exploración de recursos naturales y estudios geotécnicos.",
+
+                "1-1-3": "Transiente electromagnético (T.E.M.)",
+                    "1-1-3-text-1": "Este método utiliza pulsos eléctricos para generar campos electromagnéticos y detectar cambios en la conductividad del subsuelo.",
+                    "1-1-3-text-2": "Con esto loigra indicar la presencia de agua. Es una técnica rápida y eficiente para localizar acuíferos subterráneos.",
+        
+                "1-1-4": "Sondaje eléctrico vertical (S.E.V.)",
+                    "1-1-4-text-1": "Método básico que permite obtener la resistividad aparente y real del subsuelo. Esto se logra al medir la respuesta del subsuelo a la inyección de una corriente alterna o continua mediante electrodos dispuestos en forma de perfil. Se suelen utilizar las disposiciones Wenner y/o Schulmberger. Tiene aplicaciones en la búsqueda de aguas subterráneas someras, adquisición de datos para la confección de mallas de puesta a tierra, identificación de estructuras, litología (estratigrafía) y fallas.",
+                    "1-1-4-text-2": "La profundidad de investigación depende de la abertura de los electrodos, pero usualmente permite obtener información hasta 40 metros de profundidad.",
+
+            "1-2": "Prospección Sísmica",
+                "1-2-1": "Refracción sísmica (cálculo Vp)",
+                    "1-2-1-text-1": "El método de refracción sísmica se utiliza para calcular la velocidad de propagación de las ondas P (Vp) en el subsuelo. Consiste en medir los tiempos de llegada de las ondas P reflejadas y refractadas en la interfaz entre capas de diferentes velocidades, y luego aplicar la ley de Snell para determinar las velocidades.",
+                    
+                "1-2-2": "Análisis de onda superficial (M.A.S.W)",
+                    "1-2-2-text-1": "Análisis multicanal de ondas superficiales, permite el cálculo de Vs y Vs30 según D.S.61. La profundidad de la información depende de la fuente sísmica que se utilice; si se hace con martillo se obtienen datos de hasta 50 metros, y si se usa explosivos se pueden obtener datos de hasta 200 metros.",
+
+                "1-2-3": "Análisis espectral Nakamura o HVSR",
+                    "1-2-3-text-1": "El análisis espectral Nakamura, también conocido como HVSR (Horizontal to Vertical Spectral Ratio), es una técnica utilizada en geofísica para evaluar las características de la respuesta de una estructura geológica o edificio frente a vibraciones sísmicas. Se basa en la relación entre las amplitudes espectrales de las ondas horizontales y verticales, proporcionando información sobre las propiedades del subsuelo y la resonancia estructural.",
+
+            "1-3": "Gravimetría",
+                "1-3-1-text-1": "La gravimetría es un método geofísico que mide las variaciones en la aceleración gravitacional de la Tierra para mapear la distribución de la densidad de los materiales subsuperficiales. Se utiliza para identificar estructuras geológicas, detectar yacimientos minerales y estudiar la estructura de la corteza terrestre.",
+
+            "1-4": "Magnetometría",
+                "1-4-1-text-1": "Método geofísico el cual consta en registra la susceptibilidad magnética de las rocas, se utiliza mayormente para determinar y delimitar mineralización."
+	},
+
+    "search": {
+        "1": "Búsqueda y Caracterización de Agua Subterránea",
+            "1-1": "Método Sismoeléctrico",
+                "1-1-1-text-1": "......",
+
+            "1-2": "Método de Resistividad Eléctrica",
+                "1-2-1-text-1": "......",
+                    
+            "1-3": "Método S.E.R.",
+                "1-3-1-text-1": "La gravimetría es un método geofísico que mide las variaciones en la aceleración gravitacional de la Tierra para mapear la distribución de la densidad de los materiales subsuperficiales. Se utiliza para identificar estructuras geológicas, detectar yacimientos minerales y estudiar la estructura de la corteza terrestre."
+	},
+
+    "geology": {
+        "1": "Geología e Hidrogeología",
+                "1-1-1-text-1": "......"
+	}
+}
