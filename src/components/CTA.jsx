@@ -18,7 +18,7 @@ function CTA()  {
 return (
 
   <section id="contact" className=' sm:flex-row flex-col md:px-20'>
-    <div className='bg-black-gradient md:space-x-6 space-y-6 md:space-y-0 w-full p-8 sm:p-12 rounded-xl shadow-lg text-white'>
+    <div className='blue-glassmorphism md:space-x-6 space-y-6 md:space-y-0 w-full p-8 sm:p-12 rounded-xl shadow-lg text-white'>
       <div className='w-full text-center'>
         <h2 className={styles.heading2}>
           {t("contact.title")}

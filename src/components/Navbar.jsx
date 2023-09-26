@@ -14,7 +14,7 @@ const Navbar = ({ styles }) => {
   return (
     <nav className="w-full flex py-3 justify-between items-center navbar">
       <Link to="/">
-        <img src={logo} alt="hoobank" className="h-[52px]" />
+        <img src={logo} alt="gstrata" className="h-[52px]" />
       </Link>
 
 

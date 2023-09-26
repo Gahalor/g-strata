@@ -35,7 +35,10 @@ function Hero () {
           {t("hero.solution")}
           </p>
           <div className="mt-5">
-            <Contact styles={`mt-2`} />
+          <a href="/#contact">
+
+            <Contact styles={`mt-2`} /> 
+            </a>
           </div>
           <div className="flex mt-4 flex-row items-center">
             <div className="w-4 h-4 bg-green-500 rounded-full"/>
@@ -51,9 +54,9 @@ function Hero () {
         <img src={worldhero} alt="billing" className="w-[100%] relative z-[5]" />
 
         {/* gradient start */}
-        <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
+        {/* <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
         <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient" />
-        <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
+        <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" /> */}
         {/* gradient end */}
       </div>
 

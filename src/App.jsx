@@ -1,12 +1,8 @@
 import styles from './style';
-import React, { useContext } from 'react';
-import { TransactionContext } from './utils/TransactionContext';
+import React from 'react';
 
-import { Navbar, Hero, Stats, Solutions, Company, Explorer, Services, Techonologies, CTA, Footer, Instruments, Cards, Prospection, Search, Geology, Roadmap } from './components';
+import { Navbar, Hero, Stats, Solutions, Company, Explorer, Services, CTA, Footer, Instruments, Cards, Prospection, Search, Geology } from './components';
 import { Routes, Route } from "react-router-dom";
-// import Aos from "aos";
-// import "aos/dist/aos.css";
-// import { useEffect } from 'react';
 
 function App() {
   return (
@@ -20,10 +16,6 @@ function App() {
 }
 
 function Home() {
-  const { currentAccount } = useContext(TransactionContext);
-  // <div className="bg-[url('./assets/bg-hero.jpg')]">
-  // <div className='gradient-bg-home'>
-
   return (
     <div className="gradient-bg-home">
       <div className="w-full overflow-hidden">
@@ -50,11 +42,9 @@ function Home() {
             <div className={`${styles.boxWidth}`}>
               <Company />
               <Explorer />
-              <Instruments />
-              {/* <Techonologies /> */}
             </div>
           </div>
-          <Roadmap />
+          <Instruments />
           <div className={`${styles.paddingX} ${styles.flexStart}`}>
             <div className={`${styles.boxWidth}`}>
               <CTA />
