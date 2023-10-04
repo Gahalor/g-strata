@@ -6,13 +6,15 @@ import { TransactionContext } from '../utils/TransactionContext';
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import i18next from 'i18next';
+import styles from "../style";
 
-const Navbar = ({ styles }) => {
+const Navbar = ( ) => {
   const [toggle, setToggle] = useState(false);
   const { connectWallet, currentAccount } = useContext(TransactionContext);
 
   return (
-    <nav className="w-full flex py-3 justify-between items-center navbar">
+    
+    <nav className={`${styles.paddingX} ${styles.flexStart} w-full flex py-3 justify-between items-center bg-slate-800/40 px-16`}>
       <Link to="/">
         <img src={logo} alt="gstrata" className="h-[52px]" />
       </Link>

@@ -25,11 +25,12 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-import img1 from "./img1a.jpg";
+import solution from "./solution-img.jpg";
 import wlogo from "./wlogo.png";
 import aibig from "./aibig.png";
 import instruments from "./instruments.png";
 import stars from "./stars.jpg";
+import videoSource from "./background-video.mp4";
 
 import metamask from "./metamask.svg";
 import polygon from "./polygon.svg";
@@ -91,11 +92,12 @@ export {
   _mapbox,
   globe,
   worldhero,
-  img1,
+  solution,
   wlogo,
   aibig,
   instruments,
   stars,
   placeholder,
-  bghero
+  bghero,
+  videoSource
 };

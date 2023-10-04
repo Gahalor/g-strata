@@ -8,30 +8,19 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="prospection" element={<Service_Prospection />} />
+      {/* <Route path="prospection" element={<Service_Prospection />} />
       <Route path="search" element={<Service_Search />} />
-      <Route path="geology" element={<Service_Geology />} />
+      <Route path="geology" element={<Service_Geology />} /> */}
     </Routes>
   )
 }
 
 function Home() {
   return (
-    <div className="gradient-bg-home">
-      <div className="w-full overflow-hidden">
-        <div className={`${styles.paddingX} ${styles.flexCenter} bg-gray-900`}>
-          <div className={`${styles.boxWidth}`}>
-            <Navbar />
-          </div>
-        </div>
-        <div className="min-h-screen bg-no-repeat bg-[url('./assets/bg-hero.jpg')]">
-          <div className={`${styles.paddingX} ${styles.flexStart}`}>
-            <div className={`${styles.boxWidth}`}>
+    <div className="">
+      <div className="">
+        <div className="w-full bg-gray-100">
               <Hero />
-              <Stats />
-            </div>
-          </div>
-          <Cards />
           <div className={`${styles.paddingX} ${styles.flexStart}`}>
             <div className={`${styles.boxWidth}`}>
               <Solutions />
@@ -59,70 +48,70 @@ function Home() {
   );
 }
 
-function Service_Prospection() {
-  return (
-    <div className='gradient-bg-home'>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Navbar />
-        </div>
-      </div>
-      <div className={`${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Prospection />
-        </div>
-      </div>
-      <div className={`${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Footer />
-        </div>
-      </div>
-    </div>
-  );
-}
+// function Service_Prospection() {
+//   return (
+//     <div className='gradient-bg-home'>
+//       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+//         <div className={`${styles.boxWidth}`}>
+//           <Navbar />
+//         </div>
+//       </div>
+//       <div className={`${styles.paddingX} ${styles.flexStart}`}>
+//         <div className={`${styles.boxWidth}`}>
+//           <Prospection />
+//         </div>
+//       </div>
+//       <div className={`${styles.paddingX} ${styles.flexStart}`}>
+//         <div className={`${styles.boxWidth}`}>
+//           <Footer />
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
 
-function Service_Search() {
-  return (
-    <div className='gradient-bg-home'>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Navbar />
-        </div>
-      </div>
-      <div className={`${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Search />
-        </div>
-      </div>
-      <div className={`${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Footer />
-        </div>
-      </div>
-    </div>
-  );
-}
+// function Service_Search() {
+//   return (
+//     <div className='gradient-bg-home'>
+//       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+//         <div className={`${styles.boxWidth}`}>
+//           <Navbar />
+//         </div>
+//       </div>
+//       <div className={`${styles.paddingX} ${styles.flexStart}`}>
+//         <div className={`${styles.boxWidth}`}>
+//           <Search />
+//         </div>
+//       </div>
+//       <div className={`${styles.paddingX} ${styles.flexStart}`}>
+//         <div className={`${styles.boxWidth}`}>
+//           <Footer />
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
 
-function Service_Geology() {
-  return (
-    <div className='gradient-bg-home'>
-      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Navbar />
-        </div>
-      </div>
-      <div className={`${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Geology />
-        </div>
-      </div>
-      <div className={`${styles.paddingX} ${styles.flexStart}`}>
-        <div className={`${styles.boxWidth}`}>
-          <Footer />
-        </div>
-      </div>
-    </div>
-  );
-}
+// function Service_Geology() {
+//   return (
+//     <div className='gradient-bg-home'>
+//       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+//         <div className={`${styles.boxWidth}`}>
+//           <Navbar />
+//         </div>
+//       </div>
+//       <div className={`${styles.paddingX} ${styles.flexStart}`}>
+//         <div className={`${styles.boxWidth}`}>
+//           <Geology />
+//         </div>
+//       </div>
+//       <div className={`${styles.paddingX} ${styles.flexStart}`}>
+//         <div className={`${styles.boxWidth}`}>
+//           <Footer />
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }
 
 export default App;

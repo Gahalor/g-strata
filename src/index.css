@@ -31,7 +31,6 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  text-fill-color: transparent;
 }
 
 .bg-blue-gradient {
@@ -186,4 +185,25 @@
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.main {
+  width: 100%;
+  height: 720px;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover ;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

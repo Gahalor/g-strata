@@ -16,13 +16,13 @@ function Explorer() {
             {t("explorer.intro")}<br className="sm:block hidden" />
           </h5>
         </div>
-        <h2 className={styles.heading2}>
+        <h2 className={styles.heading1}>
           {t("explorer.title")}<br className="sm:block hidden" />
         </h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <p className={`${styles.paragraph_b} max-w-[470px] mt-5`}>
           {t("explorer.content-1")}
         </p>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <p className={`${styles.paragraph_b} max-w-[470px] mt-5`}>
           {t("explorer.content-2")}
         </p>
 
@@ -36,12 +36,9 @@ function Explorer() {
       <div className={`${layout.sectionImg}`}>
         <div style={{ flex: 1, flexDirection: 'column' }} className="text-center">
           <img src={explorer2} alt="explorer" className="w-[100%] h-[100%]" />
-          <h2 className={styles.heading3}>
+          <h2 className={styles.heading2}>
             G-Water Platform<br className="sm:block hidden" />
           </h2>
-          <p className={`${styles.paragraph2} mt-1`}>
-            Global Groundwater Information
-          </p>
         </div>
       </div>
     </section>
