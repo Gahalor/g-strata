@@ -1,24 +1,20 @@
 import React, { useContext, useState } from 'react';
 import { close, logo, menu } from '../assets';
-import { navLinks } from '../translations/en/constants';
-import { shortenAddress } from '../utils/shortenAddress';
-import { TransactionContext } from '../utils/TransactionContext';
+import { navLinks } from '../translations/constants';
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import i18next from 'i18next';
 import styles from "../style";
 
-const Navbar = ( ) => {
+const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  const { connectWallet, currentAccount } = useContext(TransactionContext);
 
   return (
-    
+
     <nav className={`${styles.paddingX} ${styles.flexStart} w-full flex py-3 justify-between items-center bg-slate-800/40 px-16`}>
       <Link to="/">
         <img src={logo} alt="gstrata" className="h-[52px]" />
       </Link>
-
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
@@ -40,7 +36,7 @@ const Navbar = ( ) => {
           src={toggle ? close : menu}
           alt="menu"
           className="w-[28px] h-[28px]
-            object-contain"
+              object-contain"
           onClick={() => setToggle((prev) => !prev)}
         />
         <div

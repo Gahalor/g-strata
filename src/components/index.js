@@ -15,6 +15,15 @@ import Projects from "./Projects";
 import Hero from "./Hero";
 import Cards from "./Cards";
 import Roadmap from "./Roadmap";
+import Background from "./Background";
+import CompanyCards from "./CompanyCards";
+import Information from "./Information";
+import NavbarInt from "./NavbarInt";
+import Partners from "./Partners";
+import HomePage from "./HomePage";
+import ProspectionPage from "./ProspectionPage";
+import SearchPage from "./SearchPage";
+import InformationPage from "./InformationPage";
 
 export {
   Navbar,
@@ -33,5 +42,14 @@ export {
   Services,
   Instruments,
   Cards,
-  Roadmap
+  Roadmap,
+  Background,
+  CompanyCards,
+  Information,
+  NavbarInt,
+  Partners,
+  HomePage,
+  ProspectionPage,
+  SearchPage,
+  InformationPage
 };

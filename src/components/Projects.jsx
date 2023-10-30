@@ -1,4 +1,4 @@
-import { feedback } from '../translations/en/constants';
+import { feedback } from '../translations/constants';
 import styles from "../style";
 import FeedbackCard from "./FeedbackCard";
 

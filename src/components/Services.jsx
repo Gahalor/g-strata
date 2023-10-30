@@ -1,99 +1,67 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useEffect, useContext, useLayoutEffect } from 'react';
 import styles, { layout } from "../style";
 import "aos/dist/aos.css";
 import { useTranslation } from "react-i18next";
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+import { IoEarth, IoWater, IoPulseSharp } from "react-icons/io5";
+import { logo } from "../assets";
 
 function Services() {
   const [t, i18n] = useTranslation("global");
 
+
+
   return (
-    <section id="services" className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6`}>
-      <div className="flex w-full items-center justify-center bg-gray-800 pt-12 pb-16 flex-col">
-        <div className='justify-center mb-6 text-center '>
-          <h2 className={styles.heading2} >
-            {t("services.title")}
-          </h2>
+    <section id="services" className={`${layout.section}  bg-gray-800 py-16`}>
+
+    <div className={`flex-1 flex-col flex justify-start items-start ${styles.paddingX}`}>
+        <img src={logo} alt="logo" className="w-[50%] relative z-[5] my-6" />
+        <div className='justify-center text-left'>
+          <div className="dreamit-section-title">
+            <h5 className='pb-3'>
+              {t("services.intro")}<br className="sm:block hidden" />
+            </h5>
+          </div>
+
         </div>
-        <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:w-2/3">
 
-          <div className='pt-6 border py-6 rounded-lg px-4'>
+
+        <div className='pt-4 py-6 rounded-lg'>
+          <div className='grid grid-cols-2 gap-4'>
             <Link to="/prospection">
-              <h2 className={`${styles.heading2} text-center text-green-500 hover:underline mb-4`}>
-                {t("services.service-1")}
-              </h2>
+              <div className='w-full h-full flex flex-col items-center border rounded-lg p-3 hover:bg-gray-900'>
+                <IoPulseSharp className='text-teal-300 text-[48px]' name='call'></IoPulseSharp>
+                <h2 className={`xs:text-lg text-md text-white text-center hover:underline my-4`}>
+                  {t("services.service-1")}
+                </h2>
+              </div>
             </Link>
 
-            <div className="ml-5 w-full md:w-full">
-              <Link to="/prospection">
-                <p className={`${styles.paragraph_w} text-green-200 hover:underline`}>
-                  {t("services.service-1-1")}
-                </p>
-              </Link>
-            </div>
-            <div className="ml-5 w-full md:w-full">
-              <Link to="/prospection">
-                <p className={`${styles.paragraph_w} text-green-200  hover:underline`}>
-                  {t("services.service-1-2")}
-                </p>
-              </Link>
-            </div>
-            <div className="ml-5 w-full md:w-full">
-              <Link to="/prospection">
-                <p className={`${styles.paragraph_w} text-green-200  hover:underline`}>
-                  {t("services.service-1-3")}
-                </p>
-              </Link>
-            </div>
-            <div className="ml-5 w-full md:w-full">
-              <Link to="/prospection">
-                <p className={`${styles.paragraph_w} text-green-200  hover:underline`}>
-                  {t("services.service-1-4")}
-                </p>
-              </Link>
-            </div>
-          </div>
-          
-          <div className='pt-6 border py-6 rounded-lg px-4'>
             <Link to="/search">
-              <h2 className={`${styles.heading2} text-center text-green-500  hover:underline mb-4`}>
-                {t("services.service-2")}
-              </h2>
-            </Link>
-            <div className="ml-5 w-full md:w-full">
-              <Link to="/search">
-                <p className={`${styles.paragraph_w} text-green-200  hover:underline`}>
-                  {t("services.service-2-1")}
-                </p>
-              </Link>
-
-            </div>
-            <div className="ml-5 w-full md:w-full">
-              <Link to="/search">
-                <p className={`${styles.paragraph_w} text-green-200  hover:underline`}>
-                  {t("services.service-2-2")}
-                </p>
-              </Link>
-            </div>
-            <div className="ml-5 w-full md:w-full">
-              <Link to="/search">
-                <p className={`${styles.paragraph_w} text-green-200  hover:underline`}>
-                  {t("services.service-2-3")}
-                </p>
-              </Link>
-            </div>
-          </div>
-          <div className='pt-6 border mpy-6 rounded-lg px-4'>
-            <Link to="/geology">
-              <h2 className={`${styles.heading2} text-center text-green-500  hover:underline mb-4`}>
-                {t("services.service-3")}
-              </h2>
+              <div className='w-full h-full flex flex-col items-center border rounded-lg pt-3 px-4 hover:bg-gray-900'>
+                <IoWater className='text-teal-300 text-[48px]' name='call'></IoWater>
+                <h2 className={`xs:text-lg text-sm text-white text-center hover:underline my-4`}>
+                  {t("services.service-2")}
+                </h2>
+              </div>
             </Link>
           </div>
         </div>
       </div>
 
+
+      <div className={`${layout.sectionInfo} ${styles.paddingX}`}>
+        <div className='youtubeContainer'>
+          <div className='iframe'>
+            <iframe src="https://www.youtube.com/embed/ZsNrIz81aVE?si=OsIC20qzKHxBk1hw&amp;controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
+          </div>
+        </div>
+
+      </div>
+
+      
     </section>
+
   );
 };
 

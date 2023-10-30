@@ -1,4 +1,4 @@
-import { explorer2 } from "../assets";
+import { waterlink } from "../assets";
 import styles, { layout } from "../style";
 import Connect from "./buttons/Connect";
 import React, { useContext } from 'react';
@@ -10,8 +10,8 @@ function Explorer() {
   return (
     <section id="explorer" className={layout.section}>
       <div className={layout.sectionInfo}>
-        
-        <div className="dreamit-section-title">
+
+        <div className="dreamit-section-title mb-3">
           <h5>
             {t("explorer.intro")}<br className="sm:block hidden" />
           </h5>
@@ -27,7 +27,7 @@ function Explorer() {
         </p>
 
         <a target="_blank" href="https://www.g-waterlink.io/">
-          <div className="ml-12">
+          <div className="">
             <Connect styles={`mt-8`} />
           </div>
         </a>
@@ -35,10 +35,7 @@ function Explorer() {
       </div>
       <div className={`${layout.sectionImg}`}>
         <div style={{ flex: 1, flexDirection: 'column' }} className="text-center">
-          <img src={explorer2} alt="explorer" className="w-[100%] h-[100%]" />
-          <h2 className={styles.heading2}>
-            G-Water Platform<br className="sm:block hidden" />
-          </h2>
+          <video src={waterlink} width="960" height="540" controls="controls" autoPlay muted />
         </div>
       </div>
     </section>

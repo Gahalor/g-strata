@@ -1,223 +1,395 @@
-import { explorer2, discount, wlogo, placeholder } from "../assets";
 import styles, { layout } from "../style";
-import Mintchainer from "./buttons/Mintchainer";
-import Connect from "./buttons/Connect";
-import Metamask from "./buttons/Metamask";
-import Aos from "aos";
 import "aos/dist/aos.css";
-import { useEffect } from 'react';
-import React, { useContext } from 'react';
-import { TransactionContext } from '../utils/TransactionContext';
 import { useTranslation } from "react-i18next";
+import { prospectionimg, imgnakamura, imgtomografia, imgmagnetotelurico } from "../assets";
+import NavbarInt from "./NavbarInt";
 
 function Prospection() {
-  const { currentAccount } = useContext(TransactionContext);
   const [t, i18n] = useTranslation("global");
 
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
   return (
-    <div className="w-full flex justify-center flex-col items-center">
+    <section id="prospection" >
+      <div className="w-full overflow-hidden h-[190px] sm:h-[580px]">
+        <img src={prospectionimg} alt="g-strata" className="w-full relative" />
+        <div className="content">
+          <NavbarInt />
+        </div>
+      </div>
+      <div className="w-full flex justify-center items-center bg-slate-800 px-4">
+        <div className="font-poppins font-semibold xs:text-[36px] text-[24px] text-white xs:leading-[76.8px] leading-[46.8px] py-4 w-full text-center">
+          {t("prospection.1")}
+        </div>
+      </div>
 
-            <div className="bg-gray-800 font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] mt-6 py-4 w-full text-center">
-              {t("prospection.1")}
-            </div>
+      <div className="w-full flex flex-col space-y-0 sm:space-y-4">
+        <div className={`${styles.paddingX} ${styles.paddingY}`}>
+          <h5 className={styles.heading1}>
+            {t("prospection.1-1")}
+            <hr style={{ background: 'green', color: 'green', borderColor: 'green', height: '3px' }} />
+          </h5>
+        </div>
 
-      <div className="w-[80%] ">
-        <section id="geoelectrica" className={layout.section}>
-          <div className={layout.sectionInfo}>
-            <div className="font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full text-left">
-              {t("prospection.1-1")}
-            </div>
-          </div>
-        </section>
+        <div className={`${styles.paddingX} ${layout.sectionInfo} `}>
+          <h2 className={styles.heading1}>
+            {t("prospection.1-1-1")}
+          </h2>
 
 
-        <section id="prospection" className={layout.section}>
-          <div className={layout.sectionInfo}>
-            <div data-aos="fade-right" className={layout.sectionInfo}>
-              <div className={styles.heading3}>
-                {t("prospection.1-1-1")}
-              </div>
-              <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 py-6">
+            <div className="flex flex-col  p-6 rounded-lg">
+
+              <p className={`${styles.paragraph_b} mt-2`}>
                 {t("prospection.1-1-1-text-1")}
               </p>
-              <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
-                {t("prospection.1-1-1-text-2")}
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-1-text-1")}
+              </p>
+
+            </div>
+            <div className="flex flex-col p-6 rounded-lg">
+
+              <img src={imgtomografia} alt="g-strata" className="w-[100%] relative z-[5] rounded-lg" />
+
+
+            </div>
+          </div>
+          <div className="flex flex-col border p-6 rounded-lg">
+
+            <p className={`${styles.heading2_b} text-sm`}>
+              {t("prospection.1-1-1-text-2")}
+            </p>
+            <p className={`${styles.paragraph_b} mt-2`}>
+              {t("prospection.1-1-1-text-3")}
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 py-6">
+            <div className="flex flex-col border p-6 rounded-lg">
+              <p className={`${styles.heading2_b} text-sm`}>
+                {t("prospection.1-1-1-text-4")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-1-text-5")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-1-text-6")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-1-text-7")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-1-text-8")}
+              </p>
+            </div>
+            <div className="flex flex-col border p-6 rounded-lg">
+              <p className={`${styles.heading2_b} text-sm`}>
+                {t("prospection.1-1-1-text-9")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-1-text-10")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-1-text-11")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-1-text-12")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-1-text-13")}
               </p>
             </div>
           </div>
-          <div data-aos="fade-left" className={`${layout.sectionImg}`}>
-            <img src={placeholder} alt="image" className="w-[80%] relative z-[5]" />
-          </div>
-        </section>
+        </div>
+
+        <div className={`${styles.paddingX} ${layout.sectionInfo} `}>
+          <h2 className={styles.heading1}>
+            {t("prospection.1-1-2")}
+          </h2>
 
 
-        <section id="prospection" className={layout.section}>
-          <div data-aos="fade-right" className={layout.sectionImgReverse}>
-            <img src={placeholder} alt="image" className="w-[80%] relative z-[5]" />
-          </div>
-          <div className={layout.sectionInfo}>
-            <div data-aos="fade-left" className={layout.sectionInfo}>
-              <div className={styles.heading3}>
-                {t("prospection.1-1-2")}
-              </div>
-              <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 py-6">
+            <div className="flex flex-col p-6 rounded-lg">
+
+              <p className={`${styles.paragraph_b} mt-2`}>
                 {t("prospection.1-1-2-text-1")}
               </p>
-              <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
-                {t("prospection.1-1-2-text-1")}
+              <p className={`${styles.heading2_b} text-sm mt-8`}>
+                {t("prospection.1-1-2-text-2")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-2-text-3")}
+              </p>
+            </div>
+            <div className="flex flex-col p-6 rounded-lg">
+              <img src={imgmagnetotelurico} alt="g-strata" className="w-[100%] relative z-[5] rounded-lg" />
+
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 py-6">
+            <div className="flex flex-col border p-6 rounded-lg">
+              <p className={`${styles.heading2_b} text-sm`}>
+                {t("prospection.1-1-2-text-4")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-2-text-5")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-2-text-6")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-2-text-7")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-2-text-8")}
+              </p>
+            </div>
+            <div className="flex flex-col border p-6 rounded-lg">
+              <p className={`${styles.heading2_b} text-sm`}>
+                {t("prospection.1-1-2-text-9")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-2-text-10")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-2-text-11")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-2-text-12")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-2-text-13")}
               </p>
             </div>
           </div>
-        </section>
+        </div>
 
-
-        <section id="prospection" className={layout.section}>
-          <div className={layout.sectionInfo}>
-            <div data-aos="fade-right" className={layout.sectionInfo}>
-              <div className={styles.heading3}>
-                {t("prospection.1-1-3")}
-              </div>
-              <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
-                {t("prospection.1-1-3-text-1")}
+        <div className={`${styles.paddingX} ${layout.sectionInfo} `}>
+          <h2 className={styles.heading1}>
+            {t("prospection.1-1-3")}
+          </h2>
+          <p className={`${styles.paragraph_b} mt-2`}>
+            {t("prospection.1-1-3-text-1")}
+          </p>
+          <p className={`${styles.heading2_b} text-sm mt-8`}>
+            {t("prospection.1-1-3-text-2")}
+          </p>
+          <p className={`${styles.paragraph_b} mt-2`}>
+            {t("prospection.1-1-3-text-3")}
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 py-6">
+            <div className="flex flex-col border p-6 rounded-lg">
+              <p className={`${styles.heading2_b} text-sm`}>
+                {t("prospection.1-1-3-text-4")}
               </p>
-              <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
-                {t("prospection.1-1-3-text-2")}
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-3-text-5")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-3-text-6")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-3-text-7")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-3-text-8")}
+              </p>
+            </div>
+            <div className="flex flex-col border p-6 rounded-lg">
+              <p className={`${styles.heading2_b} text-sm`}>
+                {t("prospection.1-1-3-text-9")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-3-text-10")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-3-text-11")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-3-text-12")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-1-3-text-13")}
               </p>
             </div>
           </div>
-          <div data-aos="fade-left" className={`${layout.sectionImg}`}>
-            <img src={placeholder} alt="image" className="w-[80%] relative z-[5]" />
-          </div>
-        </section>
+        </div>
+      </div>
 
+      <div className="w-full flex flex-col space-y-0 sm:space-y-4">
+        <div className={`${styles.paddingX} ${styles.paddingY}`}>
+          <h5 className={styles.heading1}>
+            {t("prospection.1-2")}
+            <hr style={{ background: 'green', color: 'green', borderColor: 'green', height: '3px' }} />
+          </h5>
+        </div>
 
-        <section id="prospection" className={layout.section}>
-          <div data-aos="fade-right" className={layout.sectionImgReverse}>
-            <img src={placeholder} alt="image" className="w-[80%] relative z-[5]" />
-          </div>
-          <div className={layout.sectionInfo}>
-            <div data-aos="fade-left" className={layout.sectionInfo}>
-              <div className={styles.heading3}>
-                {t("prospection.1-1-4")}
-              </div>
-              <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
-                {t("prospection.1-1-4-text-1")}
+        <div className={`${styles.paddingX} ${layout.sectionInfo} `}>
+          <h2 className={styles.heading1}>
+            {t("prospection.1-2-1")}
+          </h2>
+          <p className={`${styles.paragraph_b} mt-2`}>
+            {t("prospection.1-2-1-text-1")}
+          </p>
+          <p className={`${styles.heading2_b} text-sm mt-8`}>
+            {t("prospection.1-2-1-text-2")}
+          </p>
+          <p className={`${styles.paragraph_b} mt-2`}>
+            {t("prospection.1-2-1-text-3")}
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 py-6">
+            <div className="flex flex-col border p-6 rounded-lg">
+              <p className={`${styles.heading2_b} text-sm`}>
+                {t("prospection.1-2-1-text-4")}
               </p>
-              <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
-                {t("prospection.1-1-4-text-1")}
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-1-text-5")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-1-text-6")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-1-text-7")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-1-text-8")}
+              </p>
+            </div>
+            <div className="flex flex-col border p-6 rounded-lg">
+              <p className={`${styles.heading2_b} text-sm`}>
+                {t("prospection.1-2-1-text-9")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-1-text-10")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-1-text-11")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-1-text-12")}
               </p>
             </div>
           </div>
-        </section>
+        </div>
 
-        <hr style={{ background: 'green', color: 'green', borderColor: 'green', height: '3px', }} />
-
-        <section id="sismica" className={layout.section}>
-          <div className={layout.sectionInfo}>
-            <div className="font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full text-left">
-              {t("prospection.1-2")}
+        <div className={`${styles.paddingX} ${layout.sectionInfo} `}>
+          <h2 className={styles.heading1}>
+            {t("prospection.1-2-2")}
+          </h2>
+          <p className={`${styles.paragraph_b} mt-2`}>
+            {t("prospection.1-2-2-text-1")}
+          </p>
+          <p className={`${styles.heading2_b} text-sm mt-8`}>
+            {t("prospection.1-2-2-text-2")}
+          </p>
+          <p className={`${styles.paragraph_b} mt-2`}>
+            {t("prospection.1-2-2-text-3")}
+          </p>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 py-6">
+            <div className="flex flex-col border p-6 rounded-lg">
+              <p className={`${styles.heading2_b} text-sm`}>
+                {t("prospection.1-2-2-text-4")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-2-text-5")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-2-text-6")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-2-text-7")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-2-text-8")}
+              </p>
             </div>
-          </div>
-        </section>
-
-
-        <section id="prospection" className={layout.section}>
-          <div className={layout.sectionInfo}>
-            <div data-aos="fade-right" className={layout.sectionInfo}>
-              <div className={styles.heading3}>
-                {t("prospection.1-2-1")}
-              </div>
-              <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
-                {t("prospection.1-2-1-text-1")}
+            <div className="flex flex-col border p-6 rounded-lg">
+              <p className={`${styles.heading2_b} text-sm`}>
+                {t("prospection.1-2-2-text-9")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-2-text-10")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-2-text-11")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-2-text-12")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-2-text-13")}
               </p>
             </div>
           </div>
-          <div data-aos="fade-left" className={`${layout.sectionImg}`}>
-            <img src={placeholder} alt="image" className="w-[80%] relative z-[5]" />
-          </div>
-        </section>
+        </div>
+
+        <div className={`${styles.paddingX} ${layout.sectionInfo} `}>
+
+          <h2 className={styles.heading1}>
+            {t("prospection.1-2-3")}
+          </h2>
 
 
-        <section id="prospection" className={layout.section}>
-          <div data-aos="fade-right" className={layout.sectionImgReverse}>
-            <img src={placeholder} alt="image" className="w-[80%] relative z-[5]" />
-          </div>
-          <div className={layout.sectionInfo}>
-            <div data-aos="fade-left" className={layout.sectionInfo}>
-              <div className={styles.heading3}>
-                {t("prospection.1-2-2")}
-              </div>
-              <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
-                {t("prospection.1-2-2-text-1")}
-              </p>
-              <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
-                {t("prospection.1-2-2-text-1")}
-              </p>
-            </div>
-          </div>
-        </section>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 py-6">
+            <div className="flex flex-col  p-6 rounded-lg">
 
-
-        <section id="prospection" className={layout.section}>
-          <div className={layout.sectionInfo}>
-            <div data-aos="fade-right" className={layout.sectionInfo}>
-              <div className={styles.heading3}>
-                {t("prospection.1-2-3")}
-              </div>
-              <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
+              <p className={`${styles.paragraph_b} mt-2`}>
                 {t("prospection.1-2-3-text-1")}
               </p>
-            </div>
-          </div>
-          <div data-aos="fade-left" className={`${layout.sectionImg}`}>
-            <img src={placeholder} alt="image" className="w-[80%] relative z-[5]" />
-          </div>
-        </section>
-
-        <hr style={{ background: 'green', color: 'green', borderColor: 'green', height: '3px', }} />
-
-        <section id="gravimetria" className={layout.section}>
-          <div className={layout.sectionInfo}>
-            <div className="font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full text-left">
-              {t("prospection.1-3")}
-            </div>
-            <p className={`${styles.paragraph} mt-5`}>
-                {t("prospection.1-3-1-text-1")}
+              <p className={`${styles.heading2_b} text-sm mt-8`}>
+                {t("prospection.1-2-3-text-2")}
               </p>
-          </div>
-        </section>
-
-        <section id="magnetometria" className={layout.section}>
-
-          <div data-aos="fade-up" className={`${layout.sectionImg}`}>
-            <img src={placeholder} alt="image" className="w-[50%] relative z-[5]" />
-          </div>
-        </section>
-
-        <hr style={{ background: 'green', color: 'green', borderColor: 'green', height: '3px', }} />
-
-        <section id="magnetometria" className={layout.section}>
-          <div className={layout.sectionInfo}>
-            <div className="font-poppins font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full text-left">
-              {t("prospection.1-4")}
-            </div>
-            <p className={`${styles.paragraph} mt-5`}>
-                {t("prospection.1-4-1-text-1")}
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-3-text-3")}
               </p>
-          </div>
-        </section>
 
-        <section id="magnetometria" className={layout.section}>
+            </div>
+            <div className="flex flex-col  p-6 rounded-lg">
 
-          <div data-aos="fade-up" className={`${layout.sectionImg}`}>
-            <img src={placeholder} alt="image" className="w-[50%] relative z-[5]" />
+              <img src={imgnakamura} alt="g-strata" className="w-[100%] relative z-[5] rounded-lg" />
+
+            </div>
           </div>
-        </section>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 py-6">
+            <div className="flex flex-col border p-6 rounded-lg">
+              <p className={`${styles.heading2_b} text-sm`}>
+                {t("prospection.1-2-3-text-4")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-3-text-5")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-3-text-6")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-3-text-7")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-3-text-8")}
+              </p>
+            </div>
+            <div className="flex flex-col border p-6 rounded-lg">
+              <p className={`${styles.heading2_b} text-sm`}>
+                {t("prospection.1-2-3-text-9")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-3-text-10")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-3-text-11")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-3-text-12")}
+              </p>
+              <p className={`${styles.paragraph_b} mt-2`}>
+                {t("prospection.1-2-3-text-13")}
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 };
 

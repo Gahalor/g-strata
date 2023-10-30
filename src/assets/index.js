@@ -31,6 +31,8 @@ import aibig from "./aibig.png";
 import instruments from "./instruments.png";
 import stars from "./stars.jpg";
 import videoSource from "./background-video.mp4";
+import imgcompany from "./company-img.jpg";
+import waterlink from "./waterlink.mp4";
 
 import metamask from "./metamask.svg";
 import polygon from "./polygon.svg";
@@ -48,6 +50,29 @@ import globe from "./globe.png";
 import worldhero from "./world.png";
 import placeholder from "./placeholder.png";
 import bghero from "./bg-hero.jpg";
+import imginstarument from "./img1a.jpg";
+import searchimg from "./search-img.jpg";
+import prospectionimg from "./prospection-img.jpg";
+import imgnakamura from "./imgnakamura.png";
+import imgtomografia from "./imgtomografia.png";
+import imgsismografia from "./imgsismografia.png";
+import imgmagnetotelurico from "./imgmagnetotelurico.png";
+import imgamt from "./imgamt.png";
+
+import imgfugro from "./i-fugro.png";
+import imgarauco from "./i-arauco.png";
+import imgcorfo from "./i-corfo.png";
+import imgpetrus from "./i-petrus.png";
+import imgdraper from "./i-draper.png";
+import imgvik from "./i-vik.png";
+import imggwater from "./i-gwater.png";
+import imgessbio from "./i-essbio.png";
+import logodga from "./l-dga.png";
+import logocorfo from "./l-corfo.png";
+import lasninas from "./i-lasninas.png";
+import antofagastam from "./i-antofagastam.png";
+import xtrata from "./i-xtrata.png";
+
 
 
 export {
@@ -99,5 +124,28 @@ export {
   stars,
   placeholder,
   bghero,
-  videoSource
+  videoSource,
+  imgcompany,
+  waterlink,
+  imginstarument,
+  searchimg,
+  prospectionimg,
+  imgfugro,
+  imgarauco,
+  imgcorfo,
+  imgpetrus,
+  imgdraper,
+  imgvik,
+  imggwater,
+  imgessbio,
+  logodga,
+  logocorfo,
+  lasninas,
+  antofagastam,
+  xtrata,
+  imgnakamura,
+  imgtomografia,
+  imgsismografia,
+  imgmagnetotelurico,
+  imgamt
 };

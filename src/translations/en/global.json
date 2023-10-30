@@ -5,9 +5,15 @@
         "solution": "We provide integral solutions in the study of the subsoil, through geophysics, geology and hydrology."
     },
     "solution": {
+        "feature": " ''Innovation, development, exploration, results'' ",
+
+        "intro":  "G-Strata Solution" ,
         "title": "GroundWater Detection",
         "content-1": "We have the best technology for the location of deep waters through the innovative S.E.R. technology.",
-        "content-2": "System that identify and quantify groundwater with low uncertainty, by combining geophysical and hydrogeological data with the implementation of AI and Big Data."
+        "content-2": "Support to soil mechanics engineering.",
+        "content-3": "Execution, analysis and interpretation of seismic and electrical test data with state-of-the-art instrumentation. We are a strategic partner in the development of geotechnical projects.",
+        "content-4": "Exploration of mining projects.",
+        "content-5": "Support in geophysical, geological, hydrogeological and geochemical exploration of mining projects in their different stages."
     },
     "company": {
         "intro": "G-Strata Company",
@@ -16,6 +22,7 @@
         "content-2": "We want to be a strategic ally for our clients, delivering a quality service, complying with the deadlines and conditions established in an effective and efficient manner, providing an added value to our services."
 	},
     "explorer": {
+        "intro": "G-WaterLink",
         "title": "Global Groundwater Map",
 		"content-1": "We developed a global map of groundwater locations.",
         "content-2": "represented as NFTs ensuring ownership and veracity of data in Blockchain."
@@ -27,9 +34,11 @@
     "instruments": {
         "title": "G-Strata Instruments",
 		"content-1": "Development and innovation of state-of-the-art geophysical instrumentation.",
-        "content-2": "S.E.M.q. System: First geophysical system for groundwater search with implementation of quantum sensors."
+        "content-2": "S.E.M.q. System: First geophysical system for groundwater search with implementation of quantum sensors.",
+        "content-3": "Sale of geophysical instruments."
 	},
     "services": {
+        "intro": "G-Strata Services",
         "title": "Services",
         "service-1": "Geophysical Prospecting",
         "service-1-1": "+ Geoelectric",
@@ -64,5 +73,130 @@
         "4": "Geophysical Studies",
         "4-text": "More than 150 subsoil geophysical studies applied to civil works at national level."
 
-	}
+	},
+
+    "prospection": {
+        "1": "Geophysical Prospecting",
+        "1-1": "GEOELECTRIC",
+        "1-1-1": "Electrical Resistivity Tomography (E.R.T.)",
+        "1-1-1-text-1": "High Density Electrical Resistivity Tomography is a state-of-the-art geophysical technique for mapping variations in subsurface electrical resistivity in detail and at depth. This method is widely used in a variety of applications, from natural resource exploration to geotechnical engineering and aquifer characterization.",
+        "1-1-1-text-2": "Principio de Funcionamiento:",
+        "1-1-1-text-3": "The principle behind Electrical Resistivity Tomography (ERT) is based on the variation in electrical resistivity of different materials in the subsurface. An electric current is sent through the ground using surface electrodes and the resulting potential differences are measured. These measurements are used to calculate the apparent resistivity at different locations and by means of physical mathematical algorithms 2D and/or 3D inversion models of the subsurface can be obtained.",
+        "1-1-1-text-4": "Procedure:",
+        "1-1-1-text-5": "1 - Electrode Distribution Design: Electrodes are placed on the ground surface in a specific arrangement, forming a network of electrodes. For High Density Tomography, a larger number of electrodes are used to obtain a higher resolution.",
+        "1-1-1-text-6": "2 - Current Injection: An electric current is injected through a pair of electrodes, and potential differences are recorded at other pairs of electrodes.",
+        "1-1-1-text-7": "3 - Potential Measurements: Potential measurements are taken at different locations along the ground surface.",
+        "1-1-1-text-8": "4 - Inversion and Reconstruction: Using inversion algorithms, the measurements are processed to obtain a model of electrical resistivity distribution in the subsurface. A three-dimensional image is generated showing the resistivity variations.",
+        "1-1-1-text-9": "Advantages of High Density Electrical Resistivity Tomography:",
+        "1-1-1-text-10": "- Spatial Resolution: The use of a higher density of electrodes provides higher spatial resolution, allowing the detection of smaller structures and heterogeneities in the subsurface.",
+        "1-1-1-text-11": "- Non-invasive: SRT is a non-invasive method that does not require significant ground disturbance, making it suitable for urban and sensitive environments.",
+        "1-1-1-text-12": "- Versatility: It can be applied in a variety of contexts, from mineral resource exploration to aquifer identification and structural integrity assessment.",
+        "1-1-1-text-13": "- Three-dimensional information: Provides a three-dimensional representation of the variations in electrical resistivity, which aids in understanding the subsurface structure.",
+        "1-1-2": "Audio-Magnetotelluric Method (AMT)",
+        "1-1-2-text-1": "The Audio-Magnetotelluric (AMT) method is an advanced geophysical technique used to investigate the electrical resistivity of the subsurface at different depths, from surface to even 1000 m depth. This method combines electrical and magnetic natural field measurements to obtain information about the resistivity distribution in the subsurface and to characterize geological and geotechnical properties.",
+        "1-1-2-text-2": "Principle of Operation:",
+        "1-1-2-text-3": "The AMT method is based on the detection of natural electromagnetic fields generated by cosmic and terrestrial sources. These fields change with the electrical resistivity of the subsurface, which allows inferring geological characteristics and soil properties.",
+        "1-1-2-text-4": "Procedure:",
+        "1-1-2-text-5": "1 - Sensor Distribution: Electrical (electrodes) and magnetic (magnetometers) sensors are installed on the ground surface in a suitable configuration.",
+        "1-1-2-text-6": "2 - Data Logging: The sensors record extremely low frequency (VLF) and audio frequency (AM) electric and magnetic fields. These fields are influenced by the resistivity of the subsurface.",
+        "1-1-2-text-7": "3 - Spectral Analysis: A spectral analysis of the recorded measurements is performed to calculate the electromagnetic response of the subsurface at different frequencies.",
+        "1-1-2-text-8": "4 - Inversion and Modeling: Through inversion techniques, a three-dimensional profile of electrical resistivity in the subsurface is constructed, which allows characterizing the geological layers and geotechnical properties.",
+        "1-1-2-text-9": "Advantages of the Audio-Magnetotelluric Method:",
+        "1-1-2-text-10": "- Depth and Resolution: Provides information on electrical resistivity at different depths, which is useful for natural resource exploration and geotechnical characterization.",
+        "1-1-2-text-11": "- Complete Information: Combines electrical and magnetic measurements to obtain a complete picture of subsurface properties.",
+        "1-1-2-text-12": "- Non-invasive: Uses natural electromagnetic fields and does not require significant ground disturbance.",
+        "1-1-2-text-13": "- Wide Range of Applications: Can be applied in a variety of contexts, from mineral resource searching to aquifer evaluation.",
+        "1-1-3": "Transient Electromagnetic Method (TEM)",
+        "1-1-3-text-1": "The Transient Electromagnetic Method (TEM) is an advanced, non-invasive geophysical technique used to investigate the vertical electrical resistivity distribution of the subsurface. Its main objective is to obtain information about the electrical and geological properties of subsurface layers. The TEM method is usually used in water resources exploration, geological characterization, detection of mineralized zones and identification of potential groundwater accumulation zones.",
+        "1-1-3-text-2": "Principle of Operation:",
+        "1-1-3-text-3": "The TEM method is based on the principle of electromagnetic induction, which consists of the generation of high intensity electric current pulses through an emitting coil placed on the ground surface. Subsequently, the pulse is stopped and the response time of the subsoil to return to its equilibrium state is measured by means of a receiver coil. These pulses generate electromagnetic fields that penetrate the subsurface and, as these fields change over time, induce electrical currents in the underlying geological formations, which allows determining the electrical resistivity of the subsurface.",
+        "1-1-3-text-4": "Procedure:",
+        "1-1-3-text-5": "1 - Pulse Generation: A pulse of high intensity electric current is applied through the excitation coil at the surface. The current is abruptly interrupted, which causes a rapid variation in the electromagnetic field.",
+        "1-1-3-text-6": "2 - Response Recording: The receiving coil or antennas record the electromagnetic response emitted by the subsurface as a function of time after the pulse interruption. These recorded signals contain information about the resistivity and geometry of the subsurface.",
+        "1-1-3-text-7": "3 - Data Analysis: The relationship between the recorded signal and the time elapsed since the interruption of the pulse is analyzed. Through this analysis, different geological layers and structures can be identified based on how the signal changes with time.",
+        "1-1-3-text-8": "4 - Inversion and Modeling: Using inversion techniques, a three-dimensional model of electrical resistivity in the subsurface is developed. This model provides information on the distribution of layers and the geometry of geological formations.",
+        "1-1-3-text-9": "Advantages of the TEM Method:",
+        "1-1-3-text-10": "- Depth and Resolution: Provides information on electrical resistivity at different depths, usually from surface to several hundred meters depth, which is directly proportional to the dimensions of the current emission loop used.",
+        "1-1-3-text-11": "- Groundwater Detection: Allows the inference of groundwater accumulation zones and aquifers, by measuring the electrical resistivity parameter.",
+        "1-1-3-text-12": "- Geological Information: Helps to identify geological layers, structures and discontinuities.",
+        "1-1-3-text-13": "- Non-invasive: No significant ground disturbance, no stakes, no use of controlled energy sources.",
+        "1-2": "SEISMIC POST-SEISMIC",
+        "1-2-1": "seismic refraction method",
+        "1-2-1-text-1": "The seismic refraction method is a widely used geophysical technique for determining the propagation velocity of compressional seismic waves in the subsurface (Vp), which allows characterizing geological layers and subsurface structures. This method is valuable for geotechnical engineering, natural resource exploration, construction project planning, and terrain shoring.",
+        "1-2-1-text-2": "Working Principle:",
+        "1-2-1-text-3": "The seismic refraction method is based on the time it takes seismic waves to travel from a seismic source at the surface to receivers or geophones located at different distances along a seismic line. The variation of wave propagation velocities in different layers of the subsurface is used to infer geologic features.",
+        "1-2-1-text-4": "Procedure",
+        "1-2-1-text-5": "1 - Seismic Source: A seismic source, such as a hammer or controlled explosion, is generated at the surface. The seismic waves travel through the ground and are refracted as they encounter different geologic layers.",
+        "1-2-1-text-6": "2 - Seismic Receivers: Geophones usually of 4.5 Hz or 14 Hz natural frequency or other seismic receivers are installed at different distances from the seismic source.",
+        "1-2-1-text-7": "3 - Data Recording: Seismic waves generated by the seismic source arrive at receivers at different times, which is recorded as arrival times. These times are used to calculate the propagation velocities of the waves in the different layers of the subsurface.",
+        "1-2-1-text-8": "4 - Analysis and Interpretation: By analyzing arrival times and refraction curves, a subsurface velocity model is constructed. This model helps to identify geologic layers, interfaces and subsurface structures.",
+        "1-2-1-text-9": "Advantages of the Seismic Refraction Method:",
+        "1-2-1-text-10": "- Depth Resolution: Provides information about subsurface properties at different depths.",
+        "1-2-1-text-11": "- Velocity Determination: Allows estimation of wave propagation velocities in the subsurface, which is essential for modeling the geologic structure.",
+        "1-2-1-text-12": "- Identification of Interfaces: Useful for identifying geologic layers, such as strata, aquifers and subsurface structures.",
+        "1-2-2": "MASW (Multi-Channel Analysis of Surface Waves) method.",
+        "1-2-2-text-1": "The MASW (Multi-Channel Analysis of Surface Waves) method is a state-of-the-art geophysical technique used to characterize the mechanical and structural properties of the subsurface, especially in the surface layers. This method is widely applied in geotechnical engineering, natural resources exploration and seismic response evaluation. It also allows to determine the Vs30 parameter, usually requested by standard for constructions in general.",
+        "1-2-2-text-2": "Operating Principle:",
+        "1-2-2-text-3": "The MASW method is based on the analysis of surface waves propagating along the interface between soil and air (or water). These surface waves, also known as Rayleigh waves, contain information on the propagation velocity and attenuation in the subsurface.",
+        "1-2-2-text-4": "Procedure:",
+        "1-2-2-text-5": "1 - Data Acquisition: A series of 4.5 Hz natural frequency geophones are placed on the ground surface in a linear or similar arrangement. These geophones record the surface waves generated by a seismic source, such as a hammer or a blow.",
+        "1-2-2-text-6": "2 - Signal Recording: Seismic signals received by the geophones are recorded as surface waves travel through the subsurface.",
+        "1-2-2-text-7": "3 - Dispersion Analysis: From the recorded data, the frequency spectrum is calculated and a dispersion analysis is performed to identify the phase velocities of the surface waves at different frequencies.",
+        "1-2-2-text-8": "4 - Subsurface Modeling: Using inversion techniques, a subsurface wave propagation velocity profile is constructed. This profile can help to identify geologic layers and mechanical properties of the soil.",
+        "1-2-2-text-9": "Advantages of the MASW Method:",
+        "1-2-2-text-10": "- Shallow Depth: Focuses on the surface layers of the subsurface, which is useful for geotechnical engineering studies and seismic analysis..",
+        "1-2-2-text-11": "- Mechanical Characterization: Provides information on soil stiffness and elasticity, which is crucial for construction planning and seismic risk assessment.",
+        "1-2-2-text-12": "- Non-invasive: Does not require significant ground disturbance and adapts well to urban and sensitive environments.",
+        "1-2-2-text-13": "- High Resolution: Allows high spatial resolution to detect subtle changes in subsurface properties.",
+        "1-2-3": "H/V or Nakamura method",
+        "1-2-3-text-1": "The H/V method, also known as the Nakamura method or H/V Nakamura method, is an advanced geophysical technique used to investigate the structural properties of the subsurface in a noninvasive manner. This method has become an essential tool in site characterization for a variety of applications, such as geotechnical engineering, seismology, seismic risk assessment and infrastructure planning.",
+        "1-2-3-text-2": "Principle of Operation:",
+        "1-2-3-text-3": "The H/V method is based on the analysis of ambient microtremor waves, which are natural ground vibrations caused by sources such as traffic, wind or human activities. These vibrations are captured by surface seismic stations and processed to extract valuable information about subsurface properties.",
+        "1-2-3-text-4": "Procedure:",
+        "1-2-3-text-5": "1 - Data Acquisition: Seismic sensors are installed on the ground surface to measure natural ground vibrations over a period of time.",
+        "1-2-3-text-6": "2 - Spectral Analysis: A spectral analysis is applied to the recorded data to calculate the amplitude-frequency spectrum of the vibrations. The spectrum reveals the dominant frequencies present in the microtremor waves.",
+        "1-2-3-text-7": "3 - H/V ratio: The ratio between the amplitudes of the horizontal and vertical component of the spectrum (H/V) is calculated. This ratio is sensitive to the subsurface properties and resonance characteristics present at the site.",
+        "1-2-3-text-8": "4 - Interpretation: The H/V ratio is compared with previous theoretical models and databases to infer subsurface characteristics. Peaks in the H/V spectrum may indicate the presence of geologic layers, stiffness interfaces, and possible seismic amplification zones.",
+        "1-2-3-text-9": "Advantages of the H/V Method:",
+        "1-2-3-text-10": "- Non-invasive: The H/V method uses natural ground vibrations and does not require controlled energy sources..",
+        "1-2-3-text-11": "- Low interference: Can be performed in urban and populated environments without causing significant disturbance.",
+        "1-2-3-text-12": "- Fast and efficient: The measurement and analysis process is relatively fast, allowing preliminary results to be obtained in a short time.",
+        "1-2-3-text-13": "- Detailed information: Provides information on the mechanical and structural properties of the subsurface, which is essential for infrastructure planning and seismic risk assessment."
+    },
+
+    "search": {
+        "2": "Groundwater Search and Characterization",
+
+        "2-1": "SEISMOELECTRIC METHOD",
+        "2-1-1": "Seismoelectric Test",
+        "2-1-1-text-1": "Seismoelectric testing is an advanced geophysical technique that combines principles of seismic and electrical methods to investigate the hydraulic properties of the subsurface in a comprehensive manner. This method is used to obtain valuable information about the presence or occurrence of subsurface water, being especially useful in applications related to water resources exploration and aquifer characterization.",
+        "2-1-1-text-2": "Working Principle:",
+        "2-1-1-text-3": "The seismoelectric test is based on the interaction between the seismic waves generated by a controlled surface seismic source, such as the blow of a sledgehammer or the detonation of an explosive charge, and the electrical response in the subsoil resulting from the passage of acoustic waves. The propagation of seismic waves induces variations in the electrical resistivity of materials, especially if water is present, and these variations are recorded through electrical measurements at the surface. The working mode of this method is to perform soundings in different places over the area to be evaluated, with which 2D and/or 3D models of the variation of the hydraulic conductivity of the subsoil can be obtained. It is also possible to estimate the flow rate of water inflows identified at depth. This technique allows to explore up to 200 m depth.",
+        "2-1-1-text-4": "Procedimiento:",
+        "2-1-1-text-5": "1 - Seismic Source: A seismic source is generated at the surface by controlled shocks or hammers. The seismic waves travel through the ground and cause changes in the resistivity distribution.",
+        "2-1-1-text-6": "2 - Measurement Electrodes: Electrodes are placed on the surface and possibly in boreholes or boreholes to measure variations in electrical potential induced by seismic waves.",
+        "2-1-1-text-7": "3 - Data Recording: During and after the seismic source, electrical potential differences at the electrodes are recorded. These data are used to analyze how the seismic waves affect the electrical resistivity of the subsurface.",
+        "2-1-1-text-8": "4 - Inversion and Analysis: Through inversion techniques, electrical and seismic data are processed to obtain a three-dimensional model of the resistivity distribution. This model can help identify zones with changes in fluid saturation and geologic features.",
+        "2-1-1-text-9": "Advantages of Seismoelectric Testing:",
+        "2-1-1-text-10":"- Integrated Characterization: Combines seismic and electrical information to provide a complete picture of subsurface properties.",
+        "2-1-1-text-11":"- Fluid Detection: It is especially effective in detecting changes in water saturation, which is essential for aquifer exploration and water resource management.",
+        "2-1-1-text-12": "- Non-invasive: Does not require the introduction of significant substances or disturbances into the ground, which minimizes environmental impact.",
+        "2-1-1-text-13": "- Varied Applications: Can be applied in a variety of situations, from groundwater exploration to characterization of geologic formations.",
+        
+        "2-2": "ELECTRICAL RESISTIVITY METHOD",
+        "2-2-1": "......",
+
+        "2-3": "S.E.R. TECHNOLOGY",
+        "2-3-1": "Multivariate geophysical methodology for the search and characterization of groundwater, which integrates results from seismoelectric (SE) and subsurface electrical resistivity (RES) methods. The acronym S.E.R. refers to integrated geophysical methods such as Seismic Electrical Resistivity. The basic concept that follows the combination of both technologies is to be able to see the groundwater from two different but complementary points of view, one allows to see a signal that is proper of the water (SE) and the other is the effect of the water that produces in the medium (Resistivity). In addition, with the resistivity it is also possible to infer the lithology and stratigraphy of the subsoil under study, so the concept that a SER borehole is equivalent to the information that is collected with a well is analogous, so it could be called as a virtual well.",
+        "2-3-2": "S.E.R. technology allows to determine first if there is groundwater or not, in the case of being positive, it allows to identify at what depth is the water (aquifer), the thickness of the aquifer, make an estimate of the flow to be obtained, infer the stratigraphy and lithology of the evaluated sector. This information is very useful if you want to make a well because it also allows you to determine which is the best place to make the well and not lose resources in a dry well or low efficiency. It is also of great help to carry out a hydrogeological study collected in areas of water stress, as it allows to collect essential information at low cost to generate assertive hydrogeological models. Thus, SER technology makes it the most robust geophysical tool available for the search and characterization of groundwater."
+    },
+
+    "information": {
+        "1": "Financial data and covenants",
+        "2": "Agreements",
+        "3": "Analysis and characterization of the Itata River basin, geophysical study Valle Central Superficial.",
+        "4": "Creates and Validates - Contract",
+        "5": "To request financial statements,",
+        "6": "contact"
+    }
 }
